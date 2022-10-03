@@ -7,6 +7,11 @@ Library                Browser
 Go To Login Page
     New Page           https://trade-sticker-dev.vercel.app
 
+Slogan Should Be
+    [Arguments]        ${slogan}
+
+    Get Text           .logo-container h2    contains    ${slogan}
+
 Fill Email
     [Arguments]        ${email}
 
