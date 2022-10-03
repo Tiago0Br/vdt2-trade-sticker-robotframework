@@ -41,18 +41,18 @@ Foi criado um projeto de Testes Automatizados para a aplicação web [Trade Stic
 - Realizar o clone do projeto
 - Instalar o Robot Framework via pip (caso não tenha sido instalado)
 
-	    pip install robotframework
+	pip install robotframework
 - Instalar a biblioteca Browser
 		
-		pip install robotframework-browser
+	pip install robotframework-browser
 
 - Inicializar a biblioteca
 
-		rfbrowser init
+	rfbrowser init
 
 - Executar os testes
 
-		robot -d ./logs/ tests/
+	robot -d ./logs/ tests/
 ---
 
 Feito com 💜 &nbsp;por Tiago Lopes 👋 &nbsp;[Meu LinkedIn](https://www.linkedin.com/in/tiago-lopes-7ab0b71a4/)
