@@ -17,3 +17,6 @@ Start Test
 
 Finish Test
     Take Screenshot
+
+Thinking Time
+    Sleep              1
